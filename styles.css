@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #dddd;
+}
+
+.cards-wrapper {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url(images/bg.jpg) 
+    center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+.card-header {
+    margin-bottom: 40px;
+    }
+
+.card-header h3 {
+    font-family: "Josefin Sans", "sans serif";
+    font-size: 30px;
+    font-weight: 300;
+    color: chocolate;
+    margin: 30px;
+    border-bottom: 1px groove #ffff;
+    padding: 10px;
+}
+
+.card-header h1 {
+    font-family: "Montserrat", "sans serif";
+    font-size: 60px;
+    font-weight: 300;
+}
+
+
+
+.card-header sup {
+    font-size: 35px;
+}
+
+.card-header span {
+    font-size: 18px;
+}
+
+
+.card-body {
+    margin-bottom: 60px;
+}
+
+.card-body li {
+    list-style: note;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 15px 0;
+    }
+
+    .card-body i {
+        margin-right: 25px;
+            }
+
+
+    .card-body .fa-check 
+    {
+        color: #0d683a;
+    }
+
+    .card-body .fa-times 
+    {
+        color: #911832;
+    }
+
+    .card-footer {
+        margin-bottom: 40px;
+    }
+    .card-footer button {
+        width: 120px;
+        padding: 10px;
+        background-color: chocolate;
+        color: #ddd;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid chocolate;
+        border-radius: 100px;
+        outline: none;
+        cursor: pointer;
+    }
+
