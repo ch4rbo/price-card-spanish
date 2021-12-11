@@ -26,7 +26,17 @@
     background-size: cover;
     color: #fff;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .8);
+    transition: all .4s;
 }
+
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.8);
+}
+
 .card-header {
     margin-bottom: 40px;
     }
@@ -98,8 +108,23 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         border: 2px solid chocolate;
-        border-radius: 100px;
+        border-radius: 50px;
         outline: none;
         cursor: pointer;
-    }
+            }
 
+
+            
+   @media (max-width: 1200px) {
+       .container {
+           height: 100%;
+                  }
+
+       .cards-wrapper {
+           flex-wrap: wrap;
+                  }
+
+                  .card {
+                      margin: 50px;
+                  }
+   }
